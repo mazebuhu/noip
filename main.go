@@ -18,7 +18,8 @@
 //		"interface": "eth1"
 //	}
 //
-// A successful updateo will produce no output, as in no news a good news.
+// A successful update will produce no output, as they say "no news is
+// good news".
 //
 // Usage of noip:
 //	noip

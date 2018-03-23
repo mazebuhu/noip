@@ -1,4 +1,4 @@
-// noip is a utility to update a no-ip.com DNS records.
+// noip is a utility to update no-ip.com DNS records.
 //
 // It reads a JSON-formatted config file like this:
 //

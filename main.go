@@ -49,10 +49,6 @@ const (
 	userAgent     = "noip/v1.0.0 mazebuhu.io/noip"
 )
 
-type config struct {
-	Username, Password, Hostname, Interface string
-}
-
 func main() {
 	var (
 		confFile = flag.String("config", "/etc/noip/noip.json", "JSON-formatted config file.")
@@ -64,7 +60,10 @@ func main() {
 		log.Fatal(err)
 	}
 
-	var cfg *config
+	var cfg struct {
+		Username, Password, Hostname, Interface string
+	}
+
 	if err = json.Unmarshal(data, &cfg); err != nil {
 		log.Fatal(err)
 	}

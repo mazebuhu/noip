@@ -1,3 +1,4 @@
 noip is a utility to update no-ip.com DNS records.
 
-See https://www.noip.com/integrate/request
+See godoc for documentation: https://godoc.org/mazebuhu.io/noip
+(or "godoc mazebuhu.io/noip")
